@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type ="text/css" href="login and registration.css">
+    <title>Login</title>
+</head>
+<body>
+   
+<div class="login">
+     <h2 class="login_heading">Login Form</h2>
+    <form class="login_form" action="/addSubCat.php">
+     
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+      
+ </form>
+<div>
+    <p class="login">Doesn't have an account? please..<div class=go_to_reg>
+            <a  href="registration.html" target="_self">Registration</a>
+    </div>
+    </p>
+</div>
+
+   
+
+</div>
+
+</body>
+</html>
